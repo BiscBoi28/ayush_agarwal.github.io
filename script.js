@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Comprehensive lists (can be expanded)
     const pronounsList = ['i', 'you', 'he', 'she', 'it', 'we', 'they', 'me', 'him', 'her', 'us', 'them', 'myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'yourselves', 'themselves', 'my', 'your', 'his', 'its', 'our', 'their', 'mine', 'yours', 'hers', 'who', 'whom', 'whose', 'which', 'what', 'this', 'that', 'these', 'those', 'somebody', 'someone', 'something', 'anybody', 'anyone', 'anything', 'nobody', 'no one', 'nothing', 'everybody', 'everyone', 'everything', 'each', 'either', 'neither', 'all', 'any', 'most', 'none', 'some', 'such'];
     const prepositionsList = ['ago','aboard', 'about', 'above', 'across', 'after', 'against', 'along', 'amid', 'among', 'anti', 'around', 'as', 'at', 'before', 'behind', 'below', 'beneath', 'beside', 'besides', 'between', 'beyond', 'but', 'by', 'concerning', 'considering', 'despite', 'down', 'during', 'except', 'excepting', 'excluding', 'following', 'for', 'from', 'in', 'inside', 'into', 'like', 'minus', 'near', 'of', 'off', 'on', 'onto', 'opposite', 'outside', 'over', 'past', 'per', 'plus', 'regarding', 'round', 'save', 'since', 'than', 'through', 'to', 'toward', 'towards', 'under', 'underneath', 'unlike', 'until', 'up', 'upon', 'versus', 'via', 'with', 'within', 'without'];
-    const indefiniteArticlesList = ['a', 'an','the'];
+    const indefiniteArticlesList = ['a', 'an'];
     // Note: 'the' is a *definite* article, not indefinite.
 
     if (analyzeButton && textInput && analysisOutput) {
