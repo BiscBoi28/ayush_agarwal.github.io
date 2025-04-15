@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Agarwal - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="body-tag">
+
+    <!-- ===== Background Shapes START (From Response #5) ===== -->
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div>
+    <div class="bg-shape shape4"></div>
+    <div class="bg-shape shape5"></div>
+    <!-- ===== Background Shapes END ===== -->
+
+
+    <!-- Header/Navigation (From Response #5, Nav Link Added) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Ayush Agarwal</a> <span class="subtitle">Full Stack Developer</span>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                 <!-- Link to Text Analysis Section -->
+                <li><a href="#text-analysis">Text Tool</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="theme-toggle-button" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero/About Section (From Response #5, Contact Button Fixed, Image Updated) -->
+        <section id="about" class="hero">
+            <div class="hero-background parallax-bg"></div>
+            <div class="hero-content" data-aos="fade-right">
+                <h1>Ayush Agarwal</h1>
+                <h2>Full Stack Developer</h2>
+                <p>
+                    Passionate software engineer based in Hyderabad, India, currently pursuing Computer Science at IIIT Hyderabad. I thrive on tackling complex problems and creating elegant, efficient solutions using modern technologies. With a strong foundation in both frontend and backend development, I'm a quick learner constantly exploring new tools. Beyond coding, I'm an avid gamer, achieving high ranks in several competitive titles. I enjoy challenging myself and excel in collaborative environments.
+                </p>
+                <div class="hero-buttons">
+                     <!-- Fixed link to point to #contact section ID -->
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="cv/your_cv.pdf" class="btn btn-secondary" download="AyushAgarwal_CV.pdf">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                 <!-- Dummy Profile Picture Placeholder -->
+                <img src="images/profile_dummy.png" alt="Ayush Agarwal - Profile Picture">
+            </div>
+        </section>
+
+        <!-- Education Section (From Response #5) -->
+        <section id="education" class="content-section" data-aos="fade-up">
+            <h2><i class="fas fa-graduation-cap"></i> Education & Achievements</h2>
+            <div class="timeline">
+                 <div class="timeline-item" data-aos="fade-right"><div class="timeline-date">2024 - Present</div><div class="timeline-icon"><i class="fas fa-university"></i></div><div class="timeline-content"><h3>B.Tech in Computer Science and Engineering</h3><h4>International Institute of Information Technology, Hyderabad</h4><p>Currently pursuing my undergraduate degree, focusing on core CS concepts and specialized tracks. Active in competitive programming and exploring AI/ML fields.</p></div></div>
+                 <div class="timeline-item" data-aos="fade-left"><div class="timeline-date">2024</div><div class="timeline-icon"><i class="fas fa-trophy"></i></div><div class="timeline-content"><h3>Academic Milestones</h3><h4>Entrance Exams & Higher Secondary</h4><ul><li>Secured All India Rank 1630 in JEE Advanced.</li><li>Achieved All India Rank 836 in JEE Mains.</li><li>Graduated Higher Secondary (12th Board) with 92.4% marks.</li></ul><p>Institution: [Your School Name for 11th/12th]</p></div></div>
+                 <div class="timeline-item" data-aos="fade-right"><div class="timeline-date">2022</div><div class="timeline-icon"><i class="fas fa-award"></i></div><div class="timeline-content"><h3>Secondary School Certificate</h3><h4>10th Board Examination</h4><p>Completed secondary education, scoring 92.8% in the board exams.</p><p>Institution: [Your School Name for 10th]</p></div></div>
+                 <div class="timeline-item" data-aos="fade-left"><div class="timeline-date">2012 - 2019</div><div class="timeline-icon"><i class="fas fa-medal"></i></div><div class="timeline-content"><h3>Sporting Achievements</h3><h4>School & Club Level</h4><p>Actively participated and secured wins/recognition in multiple events:</p><ul><li>Swimming (Excelled; Represented school at zonal level)</li><li>Cricket (Part of the school team)</li><li>Skating (Won inter-school competitions)</li></ul></div></div>
+            </div>
+        </section>
+
+        <!-- Skills Section (From Response #5) -->
+        <section id="skills" class="content-section" data-aos="fade-up">
+             <h2><i class="fas fa-code"></i> Technical Skills</h2>
+             <div class="skills-grid">
+                 <div class="skill-category" data-aos="zoom-in"><h3><i class="fas fa-laptop-code"></i> Programming Languages</h3><div class="skill-tags"><span>JavaScript</span><span>TypeScript</span><span>Python</span><span>Java</span><span>C/C++</span><span>SQL</span><span>Dart</span></div></div>
+                 <div class="skill-category" data-aos="zoom-in" data-aos-delay="100"><h3><i class="fas fa-cogs"></i> Frameworks & Libraries</h3><div class="skill-tags"><span>React</span><span>Next.js</span><span>Node.js</span><span>Express</span><span>Flutter</span><span>TailwindCSS</span><span>TensorFlow/PyTorch</span></div></div>
+                 <div class="skill-category" data-aos="zoom-in" data-aos-delay="200"><h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3><div class="skill-tags"><span>AWS</span><span>Firebase</span><span>Docker</span><span>GitHub Actions</span><span>Vercel</span><span>Git</span></div></div>
+                 <div class="skill-category" data-aos="zoom-in" data-aos-delay="300"><h3><i class="fas fa-tools"></i> Tools & Methodologies</h3><div class="skill-tags"><span>VS Code</span><span>Android Studio</span><span>Figma</span><span>Postman</span><span>MongoDB</span><span>PostgreSQL</span><span>Agile/Scrum</span></div></div>
+             </div>
+        </section>
+
+        <!-- Projects Section (From Response #5, Images Updated) -->
+        <section id="projects" class="content-section" data-aos="fade-up">
+            <h2><i class="fas fa-project-diagram"></i> My Projects</h2>
+             <div class="projects-grid">
+                 <div class="project-card" data-aos="fade-up">
+                    <!-- Updated Image -->
+                    <img src="images/project-ai-fitness.png" alt="AI Movement Correction App">
+                    <div class="project-info"><h3>AI Movement Correction App</h3><p>A Flutter application leveraging AI (Computer Vision) to track human movements via camera feed and suggest real-time corrections for form and posture.</p><div class="project-tags"><span>Flutter</span><span>Dart</span><span>AI/ML</span><span>Computer Vision</span><span>Firebase</span></div><a href="#" class="btn-view-project" target="_blank"><i class="fas fa-external-link-alt"></i> View Details</a></div>
+                 </div>
+                 <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                     <!-- Updated Image -->
+                    <img src="images/project-laundry-app.png" alt="Laundry Lust App">
+                    <div class="project-info"><h3>Laundry Lust Tracker</h3><p>A mobile application (built with Flutter) designed to help users manage and keep track of their laundry cycles, timings, and preferences efficiently.</p><div class="project-tags"><span>Flutter</span><span>Firebase</span><span>Mobile App</span><span>State Management</span></div><a href="#" class="btn-view-project" target="_blank"><i class="fas fa-external-link-alt"></i> View Details</a></div>
+                 </div>
+                 <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                     <!-- Updated Image -->
+                    <img src="images/project-portfolio-web.png" alt="Portfolio Website Project">
+                    <div class="project-info"><h3>Personal Portfolio Websites</h3><p>Developed multiple responsive portfolio websites (including this one) showcasing skills and projects, focusing on UI/UX, animations (AOS), and interactivity.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>AOS</span><span>GitHub Pages</span></div><a href="#" class="btn-view-project"><i class="fas fa-eye"></i> View This Site</a></div>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Birthplace Gallery Section (From Response #5, Data Updated) -->
+        <section id="birthplace" class="content-section birthplace-section" data-aos="fade-up">
+             <h2><i class="fas fa-map-marker-alt"></i> From My Birthplace</h2>
+             <div class="birthplace-gallery">
+                <!-- Updated Birthplace Name -->
+                <h4>Bangalore, India (The Garden City)</h4>
+                <div class="gallery-images">
+                   <!-- Updated Bangalore Links/Images/Alt Text -->
+                   <a href="https://en.wikipedia.org/wiki/Vidhana_Soudha" target="_blank" class="birthplace-img-link">
+                       <img src="images/bangalore_vidhana_soudha.jpg" alt="Vidhana Soudha, Bangalore" class="birthplace-img">
+                   </a>
+                   <a href="https://en.wikipedia.org/wiki/Lalbagh_Botanical_Garden" target="_blank" class="birthplace-img-link">
+                       <img src="images/bangalore_lalbagh.jpg" alt="Lalbagh Botanical Garden, Bangalore" class="birthplace-img">
+                   </a>
+                   <a href="https://en.wikipedia.org/wiki/Bangalore_Palace" target="_blank" class="birthplace-img-link">
+                      <img src="images/bangalore_palace.jpg" alt="Bangalore Palace" class="birthplace-img">
+                   </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Q3: Text Analysis Section - NEW -->
+        <section id="text-analysis" class="content-section text-analysis-section" data-aos="fade-up">
+            <h2><i class="fas fa-calculator"></i> Text Analysis Tool (Q3)</h2>
+            <div class="text-analysis-container">
+                <textarea id="textInput" placeholder="Paste your text here (handles large inputs)..." rows="15"></textarea>
+                <button id="analyzeButton" class="btn btn-primary">Analyze Text</button>
+                <div id="analysisOutput">
+                    <p>Analysis results will appear here.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (From Response #5, Data Updated) -->
+        <section id="contact" class="content-section contact-section-simplified" data-aos="fade-up">
+             <h2><i class="fas fa-link"></i> Get In Touch</h2>
+             <div class="contact-info" data-aos="fade-up">
+                 <h3>Contact Information</h3>
+                 <!-- Updated Email and Phone -->
+                 <p><i class="fas fa-envelope"></i> <a href="mailto:SoggyBiscuit28@gmail.com">SoggyBiscuit28@gmail.com</a></p>
+                 <p><i class="fas fa-phone"></i> <a href="tel:+917259969603">+91 7259969603</a></p>
+                 <p><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+
+                 <h3>Connect With Me</h3>
+                 <div class="social-links">
+                     <a href="[Your GitHub Link]" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                     <a href="[Your LinkedIn Link]" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                     <a href="[Your Twitter Link - Optional]" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                 </div>
+
+                 <!-- Updated Location Placeholder -->
+                 <div class="map-placeholder">
+                     <p><strong>Based at:</strong></p>
+                     <p>International Institute of Information Technology (IIIT), Gachibowli, Hyderabad</p>
+                     <img src="images/iiith-map-placeholder.png" alt="Map showing IIIT Hyderabad Location" style="width: 100%; max-width: 400px; height: auto; margin: 10px auto 0; border-radius: 5px; opacity: 0.8; border: 1px solid var(--border-color);">
+                 </div>
+             </div>
+        </section>
+    </main>
+
+    <!-- Footer (From Response #5) -->
+    <footer>
+        <p>© 2024 Ayush Agarwal. All rights reserved.</p>
+        <div class="footer-links">
+             <a href="#">Privacy Policy</a>
+             <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <!-- Scripts (From Response #5) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
